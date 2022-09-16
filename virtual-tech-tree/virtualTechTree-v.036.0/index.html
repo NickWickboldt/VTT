@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Virtual Tech Tree v.036.0</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+      <link rel="stylesheet" href="styles/style.css">
+      <script src="techTreeScript.js" defer></script>
+      <div class="header">
+        <p class="header1">
+          Virtual Tech Tree
+        </p>
+        <p class="header2">
+          Boom Beach Warships
+        </p>
+        <p class="version">
+          v0.036.0
+        </p>
+      </div>
+      <div  id="sub-header">
+          <div class="season-number">
+            Season 36
+          </div>
+          <button class ="reset-button" type="reset" onclick="document.location.reload()">
+            RESET
+          </button>
+          <div class="data-values">
+            <div class="key-value">
+              Keys: 0  
+            </div>
+            <div class="token-value">
+              Tokens: 0
+            </div>
+          </div>
+      </div>
+      <div class="main-page">
+        <div class="chest-side-bar">
+          <div class="wood-chest">Wood chest</div>
+          <button class="unlock-wood">UNLOCK</button>
+  
+          <div class="stone-chest">Stone chest</div>
+          <button class="unlock-stone">UNLOCK</button>
+  
+          <div class="iron-chest">Iron chest</div>
+          <button class="unlock-iron">UNLOCK</button>
+  
+          <div class="gold-chest">Gold chest</div>
+          <button class="unlock-gold">UNLOCK</button>
+  
+          <div class="diamond-chest">Diamond chest</div>
+          <button class="unlock-diamond">UNLOCK</button>
+  
+          <div class="legendary-chest">Legendary chest</div>
+          <button class="unlock-legendary">UNLOCK</button>
+        </div>
+        <div class="tech-tree">
+            <div class="node1">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Landing 
+                Craft
+              </p>
+            </div>
+            <div class="node2"></div>
+            <div class="node3">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Gunboat
+              </p>
+            </div>
+            <div class="node4">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Cannon
+              </p>
+            </div>
+            <div class="node5">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Mine
+              </p>
+            </div>
+            <div class="node6">
+              <p class="node-label-with-nothing">
+                Rifles
+              </p>
+            </div>
+            <div class="node7">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Shock Mine
+              </p>
+            </div>
+            <div class="node8">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Grens
+              </p>
+            </div>
+            <div class="node9">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Mortar
+              </p>
+            </div>
+            <div class="node10">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Flame
+                thrower
+              </p>
+            </div>
+            <div class="node11">
+              <p class="node-label-with-nothing">
+                Medkit
+              </p>
+            </div>
+            <div class="node12">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Building
+                Health
+              </p>
+            </div>
+            <div class="node13">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Sniper
+                Tower
+              </p>
+            </div>
+            <div class="node14">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Flare
+              </p>
+            </div>
+            <div class="node15">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                3 ER
+              </p>
+            </div>
+            <div class="node16">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                GBE
+              </p>
+            </div>
+            <div class="node17">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Multi Node
+              </p>
+            </div>
+            <div class="node18">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Zooka
+              </p>
+            </div>
+            <div class="node19">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Boom Mine
+              </p>
+            </div>
+            <div class="node20">
+              <p class="node-label-with-nothing">
+                Smoke Screen
+              </p>
+            </div>
+            <div class="node21">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Medic
+              </p>
+            </div>
+            <div class="node22">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Boom Cannon
+              </p>
+            </div>
+            <div class="node23">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Troop 
+                Damage
+              </p>
+            </div>
+            <div class="node24">
+              <p class="node-label-with-nothing">
+                Heavy
+              </p>
+            </div>
+            <div class="node25">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Multi Node
+              </p>
+            </div>
+            <div class="node26">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                SGT. Brick
+              </p>
+            </div>
+            <div class="node27">
+              <p class="node-label-with-nothing">
+                Shock 
+                Bombs
+              </p>
+            </div>
+            <div class="node28">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                GBE
+              </p>
+            </div>
+            <div class="node29">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                4 ER
+              </p>
+            </div>
+            <div class="node30">
+              <p class="node-label-with-nothing">
+                Warrior
+              </p>
+            </div>
+            <div class="node31">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Bomba
+              </p>
+            </div>
+            <div class="node32">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Building
+                Health
+              </p>
+            </div>
+            <div class="node33">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Rocket Launcher
+              </p>
+            </div>
+            <div class="node34">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Machine Gun
+              </p>
+            </div>
+            <div class="node35">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Proto Node
+              </p>
+            </div>
+            <div class="node36">
+              <p class="node-label-with-nothing">
+                Tank
+              </p>
+            </div>
+            <div class="node37">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Building
+                Damage
+              </p>
+            </div>
+            <div class="node38">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Rocket
+                Choppa
+              </p>
+            </div>
+            <div class="node39">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Multi Node
+              </p>
+            </div>
+            <div class="node40">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                5 ER
+              </p>
+            </div>
+            <div class="node41">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Critters
+              </p>
+            </div>
+            <div class="node42">
+              <p class="node-label-with-nothing">
+                Dr. Kavan
+              </p>
+            </div>
+            <div class="node43">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                CPT. 
+                Everspark
+              </p>
+            </div>
+            <div class="node44">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Troop Damage
+              </p>
+            </div>
+            <div class="node45">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Artillery
+              </p>
+            </div>
+            <div class="node46">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Mech
+              </p>
+            </div>
+            <div class="node47">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Proto Node
+              </p>
+            </div>
+            <div class="node48">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down" >
+                Barrage
+              </p>
+            </div>
+            <div class="node49">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                PVT. Bullit
+              </p>
+            </div>
+            <div class="node50">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                6 ER
+              </p>
+            </div>
+            <div class="node51">
+              <p class="node-label-with-nothing">
+                Scorcher
+              </p>
+            </div>
+            <div class="node52">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Proto Node
+              </p>
+            </div>
+            <div class="node53">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                GBE
+              </p>
+            </div>
+            <div class="node54">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Shock
+                Launcher
+              </p>
+            </div>
+            <div class="node55">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Seeker
+              </p>
+            </div>
+            <div class="node56">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Heavy Choppa
+              </p>
+            </div>
+            <div class="node57">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Building Health
+              </p>
+            </div>
+            <div class="node58">
+              <p class="node-label-with-nothing">
+                Troop Damage
+              </p>
+            </div>
+            <div class="node59">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Cryoneer
+              </p>
+            </div>
+            <div class="node60">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                7 ER
+              </p>
+            </div>
+            <div class="node61">
+              <hr class="down-line-column3">
+              <p class="node-label-with-down">
+                Mine Node
+              </p>
+            </div>
+            <div class="node62">
+              <hr class="right-line">
+              <hr class="down-line">
+              <p class="node-label-with-down">
+                Multi Node
+              </p>
+            </div>
+            <div class="node63">
+              <p class="node-label-with-nothing">
+                Troop Health
+              </p>
+            </div>
+            <div class="node64">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Building Damage
+              </p>
+            </div>
+            <div class="node65">
+              <hr class="right-line">
+              <p class="node-label-with-right">
+                Proto Node
+              </p>
+            </div>
+            <div class="node66">
+              <p class="node-label-with-nothing">
+                GBE
+              </p>
+            </div>   
+            <div class="info-panel">
+              Hello
+            </div>
+        </div>
+      </div>
+    </body>
+  </html>

@@ -1,0 +1,732 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Tech Tree</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer type="module"></script>
+</head>
+<body>
+  
+  <section>
+    <div class="headercontainer">
+      <p class="title">
+        Virtual Tech Tree
+      </p>
+      <p class="subtitle">
+        Season 37: In The Trenches
+      </p>
+      <p class="version">
+        v0.037.0
+      </p>
+    </div>
+    <div class="navbar-container">
+        <div class="timer">
+           <a href="/timer.html">Season Countdown</a> </div>
+        <div class="about">
+          <a href="/about.html">About</a>
+        </div>
+    </div>
+    <section id="right-corner">
+      <div class="KT-container">
+        <p class="key-number">
+          Keys: 0
+        </p>
+        <p class="token-number">
+          Tokens: 0
+        </p>
+      </div>
+      <button class="reset-button" type="reset" onclick="document.location.reload()">
+        RESET
+      </button>
+    </section>
+    <main id="tech-tree">
+      <section class="tree">
+        <div class="node1-1 node">
+          <p class="node-label">
+             Gunboat
+          </p>
+          <p class="key-value">
+            -1
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node1-2"></div>
+        <div class="node1-3 node">
+          <p class="node-label">
+            Landing Craft
+          </p>
+          <p class="key-value">
+            -1
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node2-1 node">
+          <p class="node-label">
+             Medkit
+          </p>
+          <p class="key-value">
+            -1
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node2-2 node">
+          <p class="node-label">
+            Machine Gun
+          </p>
+          <p class="key-value">
+            -1
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node2-3 node">
+          <p class="node-label">
+            Flame Thrower
+          </p>
+          <p class="key-value">
+            -1
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node3-1 node">
+          <p class="node-label">
+             Heavy
+          </p>
+          <p class="key-value">
+            18
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node3-2 node">
+          <p class="node-label">
+            Rifles
+          </p>
+          <p class="key-value">
+            -1
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node3-3 node">
+          <p class="node-label">
+            Building Damage
+          </p>
+          <p class="key-value">
+            16
+          </p>
+          <div class="horizontal"></div>
+  
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node4-1 node">
+          <p class="node-label">
+             Mine
+          </p>
+          <p class="key-value">
+            16
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node4-2 node">
+          <p class="node-label">
+            Multi Node
+          </p>
+          <p class="key-value">
+            24
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node4-3 node">
+          <p class="node-label">
+            Mortar
+          </p>
+          <p class="key-value">
+            22
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node5-1 node">
+  
+          <p class="node-label">
+             Grens
+          </p>
+          <p class="key-value">
+            22
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node5-2 node">
+          <p class="node-label">
+            3 ER
+          </p>
+          <p class="key-value">
+            36
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node5-3 node">
+          
+          <p class="node-label">
+            CPT. Everspark
+          </p>
+          <p class="key-value">
+            42
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node6-1 node">
+  
+          <p class="node-label">
+             Flare
+          </p>
+          <p class="key-value">
+            26
+          </p>
+        </div>
+        <div class="node6-2 node">
+  
+          <p class="node-label">
+            Troop Health
+          </p>
+          <p class="key-value">
+            18
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node6-3 node">
+          <p class="node-label">
+            Cannon
+          </p>
+          <p class="key-value">
+            24
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node7-1 node">
+          <p class="node-label">
+             Zooka
+          </p>
+          <p class="key-value">
+            26
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node7-2 node">
+          <p class="node-label">
+            Multi Node
+          </p>
+          <p class="key-value">
+            30
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node7-3 node">
+          <p class="node-label">
+            PVT. Bullit
+          </p>
+          <p class="key-value">
+            42
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node8-1 node">
+          <p class="node-label">
+             Cryoneer
+          </p>
+          <p class="key-value">
+            26
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node8-2 node">
+          <p class="node-label">
+            Shock Bomb
+          </p>
+          <p class="key-value">
+            22
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node8-3 node">
+          <p class="node-label">
+            Sniper Tower
+          </p>
+          <p class="key-value">
+            26
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node9-1 node">
+          <p class="node-label">
+             Boom Mine
+          </p>
+          <p class="key-value">
+            28
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node9-2 node">
+          <p class="node-label">
+            Troop Health
+          </p>
+          <p class="key-value">
+            20
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node9-3 node">
+          <p class="node-label">
+            GBE
+          </p>
+          <p class="key-value">
+            22
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node10-1 node">
+          <p class="node-label">
+             4 ER
+          </p>
+          <p class="key-value">
+            65
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node10-2 node">
+  
+          <p class="node-label">
+            Building Health
+          </p>
+          <p class="key-value">
+            20
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node10-3 node">
+          <p class="node-label">
+            Barrage
+          </p>
+          <p class="key-value">
+            30
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node11-1 node">
+          <p class="node-label">
+             Medic
+          </p>
+          <p class="key-value">
+            32
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node11-2 node">
+          <p class="node-label">
+            Proto Node
+          </p>
+          <p class="key-value">
+            30
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node11-3 node">
+          <p class="node-label">
+            Shock Mine
+          </p>
+          <p class="key-value">
+            34
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node12-1 node">
+          <p class="node-label">
+             Boom Cannon
+          </p>
+          <p class="key-value">
+            32
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node12-2 node">
+          <p class="node-label">
+            Rocket Choppa
+          </p>
+          <p class="key-value">
+            34
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node12-3 node">
+          <p class="node-label">
+            Rocket Launcher
+          </p>
+          <p class="key-value">
+            42
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section> 
+      <section class="tree">
+        <div class="node13-1 node">
+          <p class="node-label">
+             Bomba
+          </p>
+          <p class="key-value">
+            32
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node13-2 node">
+          <p class="node-label">
+            Critters
+          </p>
+          <p class="key-value">
+            32
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node13-3 node">
+          <p class="node-label">
+            Multi Node
+          </p>
+          <p class="key-value">
+            34
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node14-1 node">
+          <p class="node-label">
+             5 ER
+          </p>
+          <p class="key-value">
+            90
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node14-2 node">
+          <p class="node-label">
+            Smoke Screen
+          </p>
+          <p class="key-value">
+            34
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node14-3 node">
+          <p class="node-label">
+            Warrior
+          </p>
+          <p class="key-value">
+            32
+          </p>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node15-1 node">
+          <p class="node-label">
+             Tank
+          </p>
+          <p class="key-value">
+            36
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node15-2 node">
+          <p class="node-label">
+            Shock Launcher
+          </p>
+          <p class="key-value">
+            40
+          </p>
+        </div>
+        <div class="node15-3 node">
+          <p class="node-label">
+            Dr. Kavan
+          </p>
+          <p class="key-value">
+            42
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node16-1 node">
+          <p class="node-label">
+             Building Damage
+          </p>
+          <p class="key-value">
+            26
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node16-2 node">
+          <p class="node-label">
+            Proto Node
+          </p>
+          <p class="key-value">
+            36
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node16-3 node">
+          <p class="node-label">
+            Troop Damage
+          </p>
+          <p class="key-value">
+            26
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node17-1 node">
+          <p class="node-label">
+             SGT. Brick
+          </p>
+          <p class="key-value">
+            42
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node17-2 node">
+          <p class="node-label">
+            GBE
+          </p>
+          <p class="key-value">
+            28
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node17-3 node">
+          <p class="node-label">
+            6 ER
+          </p>
+          <p class="key-value">
+            110
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node18-1 node">
+          <p class="node-label">
+             Mech
+          </p>
+          <p class="key-value">
+            42
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node18-2 node">
+          <p class="node-label">
+            Heavy Choppa
+          </p>
+          <p class="key-value">
+            44
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node18-3 node">
+          <p class="node-label">
+            Building Health
+          </p>
+          <p class="key-value">
+            28
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node19-1 node">
+          <p class="node-label">
+             Proto Node
+          </p>
+          <p class="key-value">
+            40
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node19-2 node">
+          <p class="node-label">
+            Artillery
+          </p>
+          <p class="key-value">
+            38
+          </p>
+          <div class="horizontal"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="node19-3 node">
+          <p class="node-label">
+           Seeker
+          </p>
+          <p class="key-value">
+            38
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node20-1 node">
+          <p class="node-label">
+             GBE
+          </p>
+          <p class="key-value">
+            30
+          </p>
+        </div>
+        <div class="node20-2 node">
+          <p class="node-label">
+            Scorcher
+          </p>
+          <p class="key-value">
+            40
+          </p>
+        </div>
+        <div class="node20-3 node">
+          <p class="node-label">
+            7 ER
+          </p>
+          <p class="key-value">
+            165
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node21-1 node">
+          <p class="node-label">
+             Mine Node
+          </p>
+          <p class="key-value">
+            42
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node21-2 node">
+          <p class="node-label">
+            Proto Node
+          </p>
+          <p class="key-value">
+            42
+          </p>
+          <div class="horizontal"></div>
+        </div>
+        <div class="node21-3 node">
+          <p class="node-label">
+            GBE
+          </p>
+          <p class="key-value">
+            32
+          </p>
+          <div class="horizontal"></div>
+        </div>
+      </section>
+      <section class="tree">
+        <div class="node22-1 node">
+          <p class="node-label">
+             Building Damage
+          </p>
+          <p class="key-value">
+            36
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node22-2 node">
+          <p class="node-label">
+            Troop Damage
+          </p>
+          <p class="key-value">
+            36
+          </p>
+          <div class="vertical-alone"></div>
+        </div>
+        <div class="node22-3 node">
+          <p class="node-label">
+            Proto Node
+          </p>
+          <p class="key-value">
+            42
+          </p>
+        </div>
+      </section>
+      <div id="pop-up-box">
+        hello
+      </div>
+
+    </main>
+    <div class="chest-container">
+      <div class="wood chest-spacing">
+        <figure class="chest-pictures">
+          <img src="./images/woodChest.png" alt="WOOD CHEST">
+        </figure>
+        <button class="unlock-wood unlock">UNLOCK</button>
+      </div>
+      <div class="stone chest-spacing">
+        <figure class="chest-pictures">
+          <img src="./images/stoneChest.png" alt="STONE CHEST">
+        </figure>
+        <button class="unlock-stone unlock">UNLOCK</button>
+      </div>
+      <div class="iron chest-spacing">
+        <figure class="chest-pictures">
+          <img src="./images/ironChest.png" alt="IRON CHEST">
+        </figure>
+        <button class="unlock-iron unlock">UNLOCK</button>
+      </div>
+      <div class="gold chest-spacing">
+        <figure class="chest-pictures">
+          <img src="./images/goldChest.png" alt="GOLD CHEST">
+        </figure>
+        <button class="unlock-gold unlock">UNLOCK</button>
+      </div>
+      <div class="diamond chest-spacing">
+        <figure class="chest-pictures">
+          <img src="./images/diamondChest.png" alt="DIAMOND CHEST">
+        </figure>
+        <button class="unlock-diamond unlock">UNLOCK</button>
+      </div>
+      <div class="legendary chest-spacing">
+        <figure class="chest-pictures">
+          <img src="./images/legendaryChest.png" alt="LEGENDARY CHEST">
+        </figure>
+        <button class="unlock-legendary unlock">UNLOCK</button>
+      </div>
+    </div>   
+  </section>
+
+</body>
+</html>
